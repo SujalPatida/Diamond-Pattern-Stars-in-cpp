@@ -6,7 +6,6 @@ int main() {
     cout << "Enter number of rows: ";
     cin >> n;
 
-    // Upper half
     for (int i = 1; i <= n; i++) {
         for (int j = i; j < n; j++) cout << " ";
         for (int k = 1; k <= (2 * i - 1); k++) cout << "*";
